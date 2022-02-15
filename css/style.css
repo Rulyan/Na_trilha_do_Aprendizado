@@ -1,6 +1,6 @@
 body{
     background-color: rgb(245, 245, 245);
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
 }
 h1{
     background-color:
@@ -8,7 +8,7 @@ h1{
     color:rgb(16, 31, 28);
     text-align: center;
     font: size 30px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 h2{
     color:  rgb(47, 137, 252);
