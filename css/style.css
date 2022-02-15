@@ -1,24 +1,51 @@
 body{
-    background-color: rgb(245, 245, 245);
+    background-color:rgb(34, 40, 49);
     font-family:'Courier New', Courier, monospace;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 30px;
+    height: 700px;
+}
+.navegacao{
+    overflow:hidden; /*ajusta o texto no box e esconde as barras de rolagem*/
+}
+.navegacao a{
+    float:right;
+    display: block;
+    color: rgb(238, 238, 238)    ;
+    text-decoration: none;
+    text-align:right;
+    padding:10px 10px;
+}
+.navegacao a:hover{
+    color:rgb(0, 173, 181);
+    background-color: black;
 }
 h1{
-    background-color:
-    rgb(48, 227, 202);
-    color:rgb(16, 31, 28);
+    background-color: rgb(0, 173, 181);
+    color:rgb(238, 238, 238);
+    text-decoration-line: border black;
     text-align: center;
-    font: size 30px;
+    font-size: 50px;
+    border: 2px solid black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
 }
 h2{
-    color:  rgb(47, 137, 252);
+    border: 2px solid black;
+    float:left;
+    height: 40px;
+    text-align: center;
+    background-color:rgb(0, 173, 181)    ;
+    padding: 30px;
+    box-shadow:4px 4px 4px black;
 }
-h3{
-    color:rgb(64, 81, 78);
+h2.um{
+    background-color: rgb(0, 173, 181);
+    height:fit-content;
+    text-align:justify;
+    padding: 50px 15px 15px;
+    border-radius:6px;
+    
 }
-p{
-    color:rgb(64, 81, 78);
-}
-ul{
-    color:rgb(64, 81, 78);
-}
+h2.dois{}
